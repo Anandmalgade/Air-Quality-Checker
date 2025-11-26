@@ -25,8 +25,5 @@ public class AirController {
 	{
 		  return service.getAQI(city);
 }
-	@GetMapping
-	public String getMsg() {
-		return "Anand";
-	}
+	
 }
